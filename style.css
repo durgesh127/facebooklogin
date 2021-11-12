@@ -1,0 +1,177 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height:100vh;
+    width:100vw;
+    position: relative;
+    background-color:#f0f2f5;
+    margin: 0 auto;
+}
+
+footer{
+    height: 50%;
+    width: 100%;
+}   
+.row{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+.fb-logo{
+    flex: 0 0 50%;
+    text-align: left;
+    font-size: 22px;
+    line-height: 26px;
+    width: auto;
+    font-family:'Poppins', sans-serif;;
+}
+
+.fb-logo img{
+     width: 350px;
+     
+}
+.fb-logo h2 {
+    font: 20px;
+    font-weight: 400;
+    padding: 0 30px;
+    line-height: 32px;
+}
+.fb-form{
+    flex: 0 0 50%;
+    text-align: center;
+    margin-top: 130px;
+}
+ 
+.fb-form .form-contain {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.fb-form .form-contain input, .fb-form .form-contain .btn-login {
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.fb-form .form-contain input {
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    padding: 0 8px;
+    outline: none;
+}
+
+.fb-form .form-contain input:focus {
+    border-color: #1059b8;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.fb-form .form-contain .btn-login {
+    background-color: #1763c7;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.fb-form .form-contain a {
+    display: block;
+    color: #1877f2;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 10px 0 20px;
+    border-bottom: 1px solid #dadde1;
+}
+
+.fb-form .form-contain a:hover {
+    text-decoration: underline;
+}
+
+.fb-form .form-contain .new-account {
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.fb-form p {
+    font-size: 16px;
+}
+
+.fb-form p a {
+    text-decoration: none;
+    color: #1c1e21;
+    font-weight: 600;
+}
+
+.fb-form p a:hover {
+    text-decoration: underline;
+}
+
+.footer-content{
+    position: relative;
+    max-width: 1000px;
+    color: #7e828a;
+}
+footer ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 10px ;
+    
+}
+footer ol:first-child{
+    border-bottom: 1px solid #7e828a;
+}
+
+footer ol:first-child li:last-child button {
+    background-color: #f5f6f7;
+    border: 1px solid #929ea3;
+    outline: none;   
+    color: #7e828a;
+    padding: 0 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+footer ol li {
+    padding-right: 12px;
+    font-size: 15px;
+    color: #7e828a;
+}
+footer ol li a {
+    text-decoration: none;
+    color: #7e828a;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+footer ol li a:hover {
+    text-decoration: underline;
+}
+
+footer small {
+    font-size: 13px;
+    margin-left: 12px;
+}
